@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Nolyx AB</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Nolyx AB" />
+        <!-- <link rel="icon" href="./img/mojs_favicon.ico" type="image/x-icon" /> FÖR ICON BREDVID TITEL -->
+        <link rel="stylesheet" href="./res/style.css" /> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="navBar">
+                <div class="navBar-left">
+                    <img id="header-logo" title="Nolyx - Homepage" alt="Logo" src="./img/logo.png" />
+                </div> <!-- /navBar-left -->
+                <div class="navBar-center">
+                    <h1 id="navBar-pageTitle">Start</h1>
+                </div> <!-- /navBar-center -->
+                <div class="navBar-right">
+                    <button type="button" title="Show menu" aria-label="Show menu" id="navButton-toggle">
+                        <span class="navButton-Line" aria-hidden="true"></span>
+                        <span class="navButton-Line" aria-hidden="true"></span>
+                        <span class="navButton-Line" aria-hidden="true"></span>
+                    </button>
+                </div> <!-- /navBar-right -->
+                <nav>
+                    <ul>
+                        <li><a id="Start" class="menuBtn activePage">Start</a></li>
+                        <li><a id="Presentation" class="menuBtn">Presentation</a></li>
+                        <li><a id="Services" class="menuBtn">Tjänster</a></li>
+                        <li><a id="References" class="menuBtn">Referenser</a></li>
+                        <li><a id="Products" class="menuBtn">Produkter</a></li>
+                        <li><a id="Contact" class="menuBtn">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <!-- <img id="header-uk" title="Nolyx - Homepage" alt="Logo" src="./img/uk.png" /> -->
+            </div> <!-- /navBar -->
+        </header>
+
+        
+        <main>
+            <div class="page-content">
+                <div id="header-flag">
+                    <img class="flag-logo" id="swe-logo" alt="SWE" src="./img/sweden.png"/>
+                    <img class="flag-logo" id="uk-logo" alt="UK" src="./img/uk.png"/>
+                </div>
+                <section id="Start-Page">
+
+                    <h2>Välkommen till</h2>
+                    <div id="start-image">
+                        <img id="start-logo" title="Nolyx - Homepage" alt="Logo" src="./img/logo.png" />
+                    </div>
+                    <h3>Ett elektronikföretag inom industriell automation</h3>
+                </section> <!--/Start-Page-->
+
+                <section id="Presentation-Page">
+                    Om oss
+                </section> <!--/Presentation-Page-->
+
+                <section id="Services-Page">
+                    <div class="services-container">
+                        <div class="services-content">
+                            <h2>Projektering</h2>
+                            <img alt="Projektering" src="./img/mappar.jpg" />
+                            <p>Utifrån vår breda erfarenhet kan vi svara för projektledning, 
+                                förprojektering, samt utredning. Genom att vara delaktiga i 
+                                projekten på ett tidigt stadium, kan vi offerera och leverera 
+                                kostnadseffektiva lösningar med hög prestanda och kvalitet.
+                            </p>
+                        </div> <!--/services-content-->
+                        <div class="services-content">
+                            <h2>Konstruktion</h2>
+                            <img alt="Konstruktion" src="./img/sawmill.jpg" />
+                            <p>Vi utför alla typer av elkonstruktion:
+                            </p>
+                                <ul>
+                                    <li>Kontaktorskåp</li>
+                                    <li>Fördelningscentraler</li>
+                                    <li>Frekvensomriktare</li>
+                                    <li>Servostyrning</li>
+                                    <li>PLC-system</li>
+                                    <li>Operatörsterminaler</li>
+                                    <li>Operatörspaneler</li>
+                                    <li>HMI-system</li>
+                                    <li>Fältbussar</li>
+                                    <li>Decentraliserade I/O</li>
+                                </ul>
+                        </div> <!--/services-content-->
+                        <div class="services-content">
+                            <h2>Säkerhet</h2>
+                            <img alt="Saftey" src="./img/saftey.jpg" />
+                            <p>Nolyx erbjuder följande tjänster:
+                            </p>
+                                <ul>
+                                    <li>Övergripande projektledning</li>
+                                    <li>Genomgång av säkerhetsstatus</li>
+                                    <li>Framtagande av riskanalys</li>
+                                    <li>Utförande av kompletta systemlösningar för elektriska säkerhetskretsar</li>
+                                </ul>
+                            <p>Vi har erfarenhet av flera på marknaden
+                                förekommande Säkerhets-PLC:
+                            </p>
+                            <ul>
+                                <li>Siemens</li>
+                                <li>Pluto</li>
+                            </ul>
+                        </div> <!--/services-content-->                        
+                    </div> <!--/services-container-->
+                    <div class="services-container">
+                        <div class="services-content">
+                            <h2>Service</h2>
+                            <img alt="Service" src="./img/Frekv_skåp.jpg" />
+                            <p> Serviceuppdrag kan ske både på egen-tillverkad
+                                utrustning och på utrustning som är levererad av
+                                andra företag.
+                                
+                                Vi utför service och felsökning på alla typer av
+                                anläggningar och maskiner.
+                                
+                                Serviceuppdrag kan även utföras via
+                                fjärranslutning, där uppkopplingar med
+                                telefon-modem, GSM-modem, och/eller
+                                Internet är möjliga.
+                            </p>
+                        </div> <!--/services-content-->
+                        <div class="services-content">
+                            <h2>IT-tjänster</h2>
+                            <img alt="Konstruktion" src="./img/skåp.jpg" />
+                            <p>Vi utför olika typer av IT-tjänster
+                            </p>
+                            <ul>
+                                <li>Microsoft.Net</li>
+                                <li>Microsoft SQL Server</li>
+                                <li>Microsoft VB6</li>
+                                <li>Web Services</li>
+                                <li>Andriod Apputveckling</li>
+                            </ul>
+                        </div> <!--/services-content-->
+                        <div class="services-content">
+                            <h2>PLC Programmering</h2>
+                            <img alt="Programmering" src="./img/programming.jpg" />
+                            <p>Vi har många års erfarenhet av de flesta på
+                                marknaden förekommande PLC-system och
+                                operatörsterminaler:
+                            </p>
+                            <ul>
+                                <li>Siemens 1500</li>
+                                <li>Siemens 1200</li>
+                                <li>Siemens S5</li>
+                                <li>Siemens S7</li>
+                                <li>Mitsubishi Melsec A</li>
+                                <li>Mitsubishi Melsec Fx</li>
+                                <li>Mitsubishi Melsec Q</li>
+                                <li>Allen Bradley</li>
+                                <li>Modicon</li>
+                                <li>Omron</li>
+                                <li>Hitachi</li>
+                                <li>Telemecanique</li>
+                            </ul>
+                            <p>Vi är vana att arbeta med olika typer av fältbussar:
+                            </p>
+                            <ul>
+                                <li>Profibus-DP</li>
+                                <li>ASI-nätverk</li>
+                                <li>Ethernet</li>
+                                <li>Profinet</li>
+                                <li>Olika former av seriekommunikation</li>
+                            </ul>
+                            <p>Scada/HMI-system:
+                            </p>
+                            <ul>
+                                <li>Siemens WinCC</li>
+                                <li>Wonderware Intouch</li>
+                            </ul>
+                        </div> <!--/services-content-->
+                    </div> <!--/services-container-->
+                </section> <!--/Services-Page-->
+
+                <section id="References-Page">
+                    Referenser
+                </section> <!--/References-Page-->
+
+                <section id="Products-Page">
+                    Produkter
+                </section> <!--/Products-Page-->
+
+                <section id="Contact-Page">
+                    Kontakt
+                </section> <!--/Contact-Page-->
+
+            </div><!--/page-content-->
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <ul class="footer-list">
+                    <li class="footer-header" id="FindUs-footer"></i><a>Hitta hit</a></li>
+                    <li class="footer-data findUs-data">Exempelvägen 75</li>
+                    <li class="footer-data findUs-data">SE-702 16 Ljusdal</li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-header" id="Contact-footer"></i><a>Kontakt</a></li>
+                    <li class="footer-data contact-data">+46701234567</li>
+                    <li class="footer-data contact-data">exempel@nolyx.se</li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-header" id="Products-footer"></i><a>Produkter</a></li>
+                    <li class="footer-data products-data">Xylon</li>
+                    <li class="footer-data products-data">Xylon Remote</li>
+                </ul>
+            </div>
+        </footer>
+
+    
+        <script src="./res/script.js"></script>
+
+    </body>
+    
+
+
+</html>

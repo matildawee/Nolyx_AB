@@ -1,0 +1,418 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(68, 68, 68);
+    background-color: #d9deeb
+}  
+.page-content{
+    width: 100%;
+    display: inline-block;
+}
+
+/*    <~~~ HEADER NAVIGATION start ~~~~   */
+.navBar{
+    width: 100%;
+    display: inline-block;
+    min-height: 55px;
+    background-color: #f4f6fa;
+    box-shadow: 0 0 10px rgb(133, 129, 129); 
+    justify-content: center;
+}
+.navBar-left{
+    display: inline-block;
+    width: 35%;
+    height: auto;
+    margin: 0 0 0 0;
+}
+#header-logo{
+    display: inline-block;
+    width: 120px;
+    margin: 0 0 0.8em 0;
+    cursor: pointer;
+}
+.navBar-center{
+    width: 30%;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 1em 0;
+    text-align: center;
+}
+#navBar-pageTitle {
+    margin: 0 auto;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.navBar-right{
+    display: block;
+    float: right;
+    width: 33%;
+    height: auto;
+    margin: 0.4em 0;
+}
+#navButton-toggle{
+    height: 33px;
+    width: 33px;
+    position: relative;
+    display: block;
+    margin: 0.5em 0.5em;
+    float: right;
+    padding: 3px 6px;
+    background: transparent;
+    border: 3px solid #555;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.navButton-Line{
+    background:#555;
+    display: block;
+    width: 15px;
+    height: 3px;
+    border-radius: 1px;
+    margin: 3px 0;
+}
+.navBar-show{
+    display: inline-block;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: openNavBar;
+}
+@keyframes openNavBar{
+    0%  {opacity: 0%; }
+  100%  {opacity: 100%; }
+}
+nav{
+    display: none;
+    margin: 0 auto;
+    width: 100%;
+}
+nav > ul{
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: center;
+}
+nav > ul > li{
+    display: inline-block;
+}
+nav > ul > li > a{
+    display: inline-block;
+    padding: 0.5em;
+    text-align: center;
+}
+nav > ul > li > a:hover{
+    cursor: pointer;
+    background: #333;
+    color: #fff
+}
+.activePage{
+    cursor: pointer;
+    background: #333;
+    color: #fff
+}
+/*    ~~~~ HEADER NAVIGATION end ~~~>   */
+
+main{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.flag-logo{
+    width: 33px;
+    margin: 0.5em;
+    position: absolute;
+    top: 6px;
+    right: 40px;
+}
+
+/*    <~~~~ START page start~~~    */ 
+#Start-Page{
+    width: 100%;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+#Start-Page > h2{
+    margin: 0 auto;
+    height: auto;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: grid;
+    place-items: center;   
+} 
+#start-image{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin: 8% 0;
+}
+#start-logo{
+    width: 300px;
+}
+#Start-Page > h3{
+    margin: 0 auto;
+    height: auto;
+    width: 90%;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: grid;
+    place-items: center; 
+    text-align: center;  
+} 
+/*    ~~~~ START page end ~~~>   */
+
+/*    <~~~~ PRESENTATION page start~~~    */ 
+
+/*    ~~~~ PRESENTATION page end ~~~>   */
+
+/*    <~~~~ SERVICES page start~~~    */ 
+#Services-Page{
+    margin: 3em 0 0 0;
+}
+.services-content{
+    width: 100%;
+    margin: 0 0 0.1em 0;
+    padding: 1em 0;
+    background-color: #f4f6fa;
+}
+.services-content > h2{
+    margin: 0;
+    padding: 0.5em 0 1em 0;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+.services-content > p{
+    margin: 0;
+    padding: 1em 1.5em 0.5em 1.5em;
+    font-weight: bold;
+    text-align: justify;
+}
+.services-content > ul{
+    margin: 0 0 1em 0;
+}
+.services-content > ul > li{
+    margin: 0;
+    padding: 0.1em 0;
+    font-weight: bold;
+}
+.services-content > img{
+    display: inline-block;
+    width: 100%;
+}
+/*    ~~~~ SERVICES page end ~~~>   */
+
+/*    <~~~~ FOOTER start~~~    */ 
+footer{
+    width: 100%;
+    background-color: #474e5d;
+    color: white;
+    display: flex;
+    bottom: 0;
+}
+.footer-content{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.footer-list{
+    list-style: none;
+    width: 150px;
+    margin: 3% 0;
+    padding: 0;
+}
+.footer-header{
+    font-weight: bold;
+    padding: 3% 0;
+    margin: 0;
+}
+.footer-data{
+    padding: 3% 0;
+}
+.footer-header > a:hover{
+    cursor: pointer;
+    color: rgb(128, 122, 122);
+}
+.products-data:hover{
+    cursor: pointer;
+    color: rgb(128, 122, 122);
+}
+/*    ~~~~ FOOTER end~~~>    */ 
+
+/* Denna kod används om skärmen är större än 768px */
+@media screen and (min-width: 768px){
+    #header-logo{
+        width: 170px;
+        margin: 0 0 2% 0;
+    } 
+
+    /*    <~~~~ START page start~~~    */
+    #Start-Page{
+        margin-top: 10.7em;
+        margin-bottom: 11.5em;
+    }
+    #Start-Page > h2{
+        font-size: 2em; 
+    } 
+    #start-image{
+        margin: 1.5em 0;
+    }
+    #start-logo{
+        width: 550px;
+    }
+    .flag-logo{
+        width: 34px;
+    }
+    #swe-logo{
+        visibility: hidden;
+    }
+    #uk-logo{
+        visibility: visible;
+    }
+    /*    ~~~~ START page end ~~~>   */
+
+    /*    <~~~~ SERVICES page start~~~    */
+    #Services-Page{
+        width: 100%;
+        margin: 3.5em 0 0 0
+    }
+    .services-content{
+        width: 70%;
+        margin: 0 15% 0.1em 15%;
+    }
+    .services-content > p{
+        width: 90%;
+        margin: 0 3%;
+        padding: 1em 0 0.5em 1em;
+    }
+    .services-content > ul{
+        width: 90%;
+        margin: 0;
+        padding: 0 0 1em 3.5em;
+    }
+    .services-content > img{
+        width: 90%;
+        margin: 0 5%
+    }
+    /*    ~~~~ SERVICES page end ~~~>   */ 
+
+    /*    <~~~~ FOOTER desktop end ~~~   */
+    .footer-content{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-list{
+        width: 150px;
+        margin: 2em 3em;
+    }
+    .footer-data{
+        padding: 0.5em 0;
+    }
+    .footer-header{
+        padding: 0.5em 0;
+    } 
+    .findUs-data{
+        display: inline-block;
+    }
+    .contact-data{
+        display: inline-block;
+    }
+    .products-data{
+        display: inline-block;
+    }
+    .down{
+        visibility: hidden;
+    }
+    .up{
+        visibility: hidden;
+    }
+    /*    ~~~~ FOOTER desktop end ~~~>   */
+}
+
+/* Denna kod används om skärmen är större än 1068px */
+@media screen and (min-width: 1068px){
+     /*    <~~~~ HEADER NAVIGATION desktop start~~~    */    
+     nav{
+        visibility: visible;
+        display: inline-block;
+        margin: 0.2em 0;
+        width: 65%;
+    }
+    .navDesktop{
+        visibility: visible;
+        display: inline-block;
+        margin: 0 auto;
+        width: 60%;
+    }
+    .navBar-left{
+        width: 15%;
+        margin: 0 0;
+    }
+    #header-logo{
+        width: 170px;
+        margin: 0 0 0.5em 0;
+    }
+    .navBar-center{
+        display: none;
+        visibility: hidden;
+    }
+    .navBar-right{
+        display: none;
+        visibility: hidden;
+        width: 20%;
+    }
+    nav > ul{
+        width: auto;
+    }
+    nav > ul > li > a{
+        padding: 1em 1em;
+    }
+    /*    ~~~~ NAVIGATION desktop end ~~~>   */
+
+    .flag-logo{
+        width: 40px;
+    }
+    .flag-logo{
+        top: 3px;
+        right: 9px;
+    }
+
+    /*    <~~~~ SERVICES page start~~~    */ 
+    .services-container{
+        display: flex;
+    }
+    .services-content{
+        margin: 0 0.1em 0.1em 0;
+        padding: 0.5em 2em;
+        min-width: 400px;                
+    }
+    .services-content > h2{
+        text-align: left;
+    }
+    .services-content > p{
+        width: 100%;
+        padding: 1em 0 0.5em 0;
+        margin: 0;
+    }
+    .services-content > ul{
+        margin: 0;
+        padding: 0 0 0.5em 1em;
+    }
+    .services-content > img{
+        width: 100%;
+        margin: 0;
+    }
+    /*    ~~~~ SERVICES page end ~~~>   */ 
+}
