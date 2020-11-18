@@ -131,7 +131,7 @@ main{
     width: 33px;
     margin: 0.5em;
     position: absolute;
-    top: 6px;
+    top: 5px;
     right: 40px;
 }
 
@@ -257,7 +257,15 @@ footer{
         width: 170px;
         margin: 0 0 2% 0;
     } 
-
+    .flag-logo{
+        width: 34px;
+    }
+    #swe-logo{
+        visibility: hidden;
+    }
+    #uk-logo{
+        visibility: visible;
+    }
     /*    <~~~~ START page start~~~    */
     #Start-Page{
         margin-top: 10.7em;
@@ -271,15 +279,6 @@ footer{
     }
     #start-logo{
         width: 550px;
-    }
-    .flag-logo{
-        width: 34px;
-    }
-    #swe-logo{
-        visibility: hidden;
-    }
-    #uk-logo{
-        visibility: visible;
     }
     /*    ~~~~ START page end ~~~>   */
 
@@ -385,8 +384,8 @@ footer{
         width: 40px;
     }
     .flag-logo{
-        top: 3px;
-        right: 9px;
+        top: 60px;
+        right: 0px;
     }
 
     /*    <~~~~ SERVICES page start~~~    */ 
@@ -395,8 +394,7 @@ footer{
     }
     .services-content{
         margin: 0 0.1em 0.1em 0;
-        padding: 0.5em 2em;
-        min-width: 400px;                
+        padding: 0.5em 2em;                
     }
     .services-content > h2{
         text-align: left;

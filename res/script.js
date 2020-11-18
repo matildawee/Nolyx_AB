@@ -106,7 +106,7 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
             const navs = document.querySelectorAll('nav');
             navs.forEach(nav => nav.classList.toggle('navBar-show'));
         }
-        
+
         //Vid klick på hamburgermenu-knappen i mobil-vy anropas funktionen ovanför.
         document.querySelector('#navButton-toggle').addEventListener('click', classToggle);
 
