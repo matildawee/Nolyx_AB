@@ -262,7 +262,7 @@ main{
     margin: 0;
     padding: 1em 1.5em 0.5em 1.5em;
     font-weight: bold;
-    text-align: justify;
+    text-align: left;
 }
 .services-content > ul{
     margin: 0 0 1em 0;
