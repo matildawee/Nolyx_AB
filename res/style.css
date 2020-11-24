@@ -128,10 +128,10 @@ main{
     padding: 0;
 }
 .flag-logo{
-    width: 33px;
+    width: 32px;
     margin: 0.5em;
     position: absolute;
-    top: 5px;
+    top: 6px;
     right: 40px;
 }
 
@@ -174,6 +174,71 @@ main{
 
 /*    <~~~~ PRESENTATION page start~~~    */ 
 
+#Presentation-Page{
+    width: 100%;
+    margin-top: 2em;
+}
+#presentation-image{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin: 7% 0;
+}
+#presentation-logo{
+    width: 300px;
+}
+.presentation-content{
+    width: 100%;
+    margin: 0 0 0.1em 0;
+    height: auto;
+    padding: 1em 0;
+    background-color: #f4f6fa;
+    display: flex;
+}
+#Presentation-Page > h3{
+    margin: 0 auto 1.5em;
+    height: auto;
+    width: 90%;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+} 
+.presentation-content-left{
+    width: 90%;
+    place-items: center;
+}
+.presentation-content-left > p{
+    margin: 0 auto;
+    padding: 0 0.5 0 0em;
+    width: 95%;
+    font-size: 1em;
+    font-weight: bold;
+} 
+.presentation-content-right{
+    margin: auto 1em auto 0;
+    width: 10%;
+    padding: 0;
+    text-align: right;
+}
+.fas{
+    font-size: 2.5em;
+}
+.fa-industry{
+    font-size: 2em;
+}
+.fa-hard-hat{
+    font-size: 2.4em;
+}
+.fa-user-friends{
+    font-size: 2em; 
+}
+.fa-desktop{
+    font-size: 2em;
+}
+.fa-shield-alt{
+    font-size: 2em;
+}
 /*    ~~~~ PRESENTATION page end ~~~>   */
 
 /*    <~~~~ SERVICES page start~~~    */ 
@@ -307,6 +372,44 @@ footer{
     }
     /*    ~~~~ SERVICES page end ~~~>   */ 
 
+    /*    <~~~~ PRESENTATION page start~~~    */ 
+    #Presentation-Page{
+        margin: 0 0 3em 0;
+    }
+    #presentation-image{
+        margin: 2em 0 1em 0;
+    }
+    #presentation-logo{
+        width: 400px;
+    }
+    .presentation-content{
+        width: 90%;
+        margin: 0 5% 0.1em 5%;
+    }
+    .presentation-content-left > p{
+        margin: 0 0 0 1em;
+        width: 100%;
+    } 
+    .fas{
+        font-size: 3em;
+    }
+    .fa-industry{
+        font-size: 2.5em;
+    }
+    .fa-hard-hat{
+        font-size: 2.9em;
+    }
+    .fa-user-friends{
+        font-size: 2.5em; 
+    }
+    .fa-desktop{
+        font-size: 2.5em;
+    }
+    .fa-shield-alt{
+        font-size: 2.5em;
+    }
+    /*    ~~~~ PRESENTATION page end ~~~>   */
+
     /*    <~~~~ FOOTER desktop end ~~~   */
     .footer-content{
         display: flex;
@@ -384,8 +487,8 @@ footer{
         width: 40px;
     }
     .flag-logo{
-        top: 60px;
-        right: 0px;
+        top: 2px;
+        right: 2px;
     }
 
     /*    <~~~~ SERVICES page start~~~    */ 
@@ -413,4 +516,12 @@ footer{
         margin: 0;
     }
     /*    ~~~~ SERVICES page end ~~~>   */ 
+    
+    /*    <~~~~ PRESENTATION page start~~~    */ 
+    .presentation-content{
+        width: 80%;
+        margin: 0 10% 0.1em 10%;
+    } 
+    /*    ~~~~ PRESENTATION page end ~~~>   */
+
 }

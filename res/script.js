@@ -20,14 +20,18 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
 
     //Anropas när man klickar på navigeringslänkarna.
     //Döljer alla sidor, uppdaterar vilken sida som är aktiv just nu, samt
-    //visar och uppdaterar Page-Title i mobilvyn visar och döljer navbar i mobilvyn
+    //visar och uppdaterar Page-Title i mobilvyn, visar och döljer navbar i mobilvyn
         function loadPage(clickedId){ 
             hidePageSections(); 
             $('#' + clickedId + '-Page').show();
             $('.menuBtn').removeClass('activePage');
             $('#'+clickedId).addClass('activePage');
-            if(clickedId == "Presentation"){
-                $('#navBar-pageTitle').html("Om oss");
+            if(clickedId == "Start"){
+                $('#navBar-pageTitle').html("Start");
+                classToggle();
+            }
+            else if(clickedId == "Presentation"){
+                $('#navBar-pageTitle').html("Presentation");
                 classToggle();
             }
             else if(clickedId == "Services"){
