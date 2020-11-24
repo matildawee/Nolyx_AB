@@ -243,7 +243,7 @@ main{
 
 /*    <~~~~ SERVICES page start~~~    */ 
 #Services-Page{
-    margin: 3em 0 0 0;
+    margin: 0.1em 0 0 0;
 }
 .services-content{
     width: 100%;
@@ -277,6 +277,80 @@ main{
     width: 100%;
 }
 /*    ~~~~ SERVICES page end ~~~>   */
+
+/*    <~~~~ REFERENCES page start~~~    */
+/*    ~~~~ REFERENCES page end ~~~>   */
+
+/*    <~~~~ PRODUCTS page start~~~    */
+#Products-Page{
+    width: 100%;
+}
+.products-content{
+    width: 100%;
+    margin: 0.1em 0 0.1em 0;
+    padding: 1em 0;
+    background-color: #f4f6fa;
+    text-align: center;
+}
+.products-content > h2{
+    margin: 0;
+    padding: 0.5em 0 1em 0;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.products-content > img{
+    display: inline-block;
+    width: 100%;
+}
+.products-content > p{
+    margin: 0;
+    padding: 1em 1.5em 0.5em 1.5em;
+    font-weight: bold;
+    text-align: center;    
+}
+.products-content > a{
+    width: 100%;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+.products-content > a:link {
+    color:black;
+  }
+.products-content > a:hover {
+    color: rgb(131, 131, 131);
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+} 
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+#arrow-down{
+    display: inline-block;
+    position: absolute;
+    visibility: visible;
+    margin: 0.2em 0.4em;
+}
+#arrow-up{
+    display: inline-block;
+    position: absolute;
+    visibility: hidden; 
+    margin: 0.4em 0.4em;   
+}
+/*    ~~~~ PRODUCTS page end ~~~>   */ 
+
+/*    <~~~~ CONTACT page start~~~    */
+/*    ~~~~ CONTACT page end ~~~>   */ 
 
 /*    <~~~~ FOOTER start~~~    */ 
 footer{
