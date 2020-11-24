@@ -347,6 +347,18 @@ main{
     visibility: hidden; 
     margin: 0.4em 0.4em;   
 }
+#arrow-down2{
+    display: inline-block;
+    position: absolute;
+    visibility: visible;
+    margin: 0.2em 0.4em;
+}
+#arrow-up2{
+    display: inline-block;
+    position: absolute;
+    visibility: hidden; 
+    margin: 0.4em 0.4em;   
+}
 /*    ~~~~ PRODUCTS page end ~~~>   */ 
 
 /*    <~~~~ CONTACT page start~~~    */
@@ -484,6 +496,25 @@ footer{
     }
     /*    ~~~~ PRESENTATION page end ~~~>   */
 
+    /*    <~~~~ PRODUCTS page start~~~    */
+    #Products-Page{
+        width: 100%;
+        margin: 5em 0 0 0
+    }
+    .products-content{
+        width: 70%;
+        margin: 0.1em 15% 0.1em 15%;
+    }
+    .products-content > img{
+        width: 84%;
+    }
+    .products-content > p{
+        width: 90%;
+        margin: 0 5% 0 5%;
+        padding: 1em 0;    
+    }
+    /*    <~~~~ PRODUCTS desktop end ~~~   */
+
     /*    <~~~~ FOOTER desktop end ~~~   */
     .footer-content{
         display: flex;
@@ -591,11 +622,26 @@ footer{
     }
     /*    ~~~~ SERVICES page end ~~~>   */ 
     
+    
     /*    <~~~~ PRESENTATION page start~~~    */ 
     .presentation-content{
         width: 80%;
         margin: 0 10% 0.1em 10%;
     } 
     /*    ~~~~ PRESENTATION page end ~~~>   */
+
+
+    /*    <~~~~ PRODUCTS page start~~~    */
+    #Products-Page{
+        width: 90%;
+        margin: 7em 0;
+        display: flex;
+        padding: 0 5%;
+    }
+    .products-content{
+        width: 50%;
+        margin: 0.1em 1em 0.1em 1em;
+    }
+    /*    <~~~~ PRODUCTS desktop end ~~~   */
 
 }
