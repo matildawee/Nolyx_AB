@@ -674,6 +674,12 @@ footer{
         display: inline-table;
         min-height: 600px;
     }
+    #xylon-info{
+        min-height: 660px;
+    }
+    #xylon-remote-info{
+        min-height: 640px;
+    }
     
     /*    <~~~~ PRODUCTS desktop end ~~~   */
 
