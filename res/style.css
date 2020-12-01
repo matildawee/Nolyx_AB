@@ -305,8 +305,9 @@ main{
     width: 100%;
 }
 .products-content > p{
-    margin: 0;
-    padding: 1em 1.5em 0.5em 1.5em;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0;
     font-weight: bold;
     text-align: center;    
 }
@@ -358,6 +359,31 @@ main{
     position: absolute;
     visibility: hidden; 
     margin: 0.4em 0.4em;   
+}
+.products-info{
+    width: 100%;
+    
+}
+.products-info > h3{
+    width: 90%;
+    margin: 2em auto 0.5em;
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+}
+.products-info > p{
+    width: 90%;
+    margin: auto;
+    padding: 0 0 0;
+    font-weight: bold;
+    text-align: left; 
+}
+#xylon-remote-info{
+    display: none;
+}
+#xylon-info{
+    
+    display: none;
 }
 /*    ~~~~ PRODUCTS page end ~~~>   */ 
 

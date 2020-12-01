@@ -134,21 +134,25 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
         $("#xylon-arrows").on("click", "#arrow-down", function(event){
             $("#arrow-up").css({"visibility": "visible"});
             $("#arrow-down").css({"visibility": "hidden"});
+            $("#xylon-info").css({"display": "inline-block"});
         });
         //Visar pil ned när man trycker på pil upp
         $("#xylon-arrows").on("click", "#arrow-up", function(event){
             $("#arrow-down").css({"visibility": "visible"});
             $("#arrow-up").css({"visibility": "hidden"});
+            $("#xylon-info").css({"display": "none"});
         });
         //Visar pil upp när man trycker på pil ned
         $("#xylon-remote-arrows").on("click", "#arrow-down2", function(event){
             $("#arrow-up2").css({"visibility": "visible"});
             $("#arrow-down2").css({"visibility": "hidden"});
+            $("#xylon-remote-info").css({"display": "inline-block"});
         });
         //Visar pil ned när man trycker på pil upp
         $("#xylon-remote-arrows").on("click", "#arrow-up2", function(event){
             $("#arrow-down2").css({"visibility": "visible"});
             $("#arrow-up2").css({"visibility": "hidden"});
+            $("#xylon-remote-info").css({"display": "none"});
         });
 
         /*    ~~~~ Products end ~~~>   */
