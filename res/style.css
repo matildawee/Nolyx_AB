@@ -399,19 +399,20 @@ main{
     width: 100%;
 }
 #contact-info{
-    margin: 0.1em 0 0 0;
+    margin: 0.1em 0;
+    background-color: #f4f6fa;
+    font-weight: bold;
 }
-#contact-employees{
-    width: 100%;
+.contact-map > p{
+    padding: 0.5em;
+    margin: 0;
 }
 .employee{
     background-color: #f4f6fa;
-    width: 100%;
     margin: 0.01em 0 0.1em 0;
     padding: 1em 0;
     font-weight: bold;
 }
-
 /*    ~~~~ CONTACT page end ~~~>   */ 
 
 /*    <~~~~ FOOTER start~~~    */ 
@@ -571,6 +572,16 @@ footer{
     }
     /*    <~~~~ PRODUCTS desktop end ~~~   */
 
+    /*    <~~~~ CONTACT desktop start~~~    */
+    #contact-employees{
+        display: flex;
+    }
+    .employee{
+        width: 100%;
+        margin: 0.05em;
+    }
+    /*    ~~~~ CONTACT desktop end ~~~>   */ 
+
     /*    <~~~~ FOOTER desktop end ~~~   */
     .footer-content{
         display: flex;
@@ -708,5 +719,17 @@ footer{
     }
     
     /*    <~~~~ PRODUCTS desktop end ~~~   */
+
+    /*    <~~~~ CONTACT desktop start~~~    */
+    #contact-info{
+        width: 70%;
+        margin: 3em 15%;
+    }
+    #contact-employees{
+        display: flex;
+        width: 70%;
+        margin: 0 15% 3em;
+    }
+    /*    ~~~~ CONTACT desktop end ~~~>   */ 
 
 }
