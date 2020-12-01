@@ -131,30 +131,42 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
         /*    <~~~ Products start ~~~~   */
 
         //Visar pil upp när man trycker på pil ned
-        $("#xylon-arrows").on("click", "#arrow-down", function(event){
+        $('#xylon-arrow-down').click(function (event) {
+            event.preventDefault();
             $("#arrow-up").css({"visibility": "visible"});
             $("#arrow-down").css({"visibility": "hidden"});
+            $("#xylon-arrow-down").css({"display": "none"});
+            $("#xylon-arrow-up").css({"display": "inline-block"});
             $("#xylon-info").css({"display": "inline-block"});
         });
         //Visar pil ned när man trycker på pil upp
-        $("#xylon-arrows").on("click", "#arrow-up", function(event){
-            $("#arrow-down").css({"visibility": "visible"});
+        $('#xylon-arrow-up').click(function (event) {
+            event.preventDefault();
             $("#arrow-up").css({"visibility": "hidden"});
+            $("#arrow-down").css({"visibility": "visible"});
+            $("#xylon-arrow-down").css({"display": "inline-block"});
+            $("#xylon-arrow-up").css({"display": "none"});
             $("#xylon-info").css({"display": "none"});
         });
         //Visar pil upp när man trycker på pil ned
-        $("#xylon-remote-arrows").on("click", "#arrow-down2", function(event){
+        $('#xylon-remote-arrow-down').click(function (event) {
+            event.preventDefault();
             $("#arrow-up2").css({"visibility": "visible"});
             $("#arrow-down2").css({"visibility": "hidden"});
+            $("#xylon-remote-arrow-down").css({"display": "none"});
+            $("#xylon-remote-arrow-up").css({"display": "inline-block"});
             $("#xylon-remote-info").css({"display": "inline-block"});
         });
         //Visar pil ned när man trycker på pil upp
-        $("#xylon-remote-arrows").on("click", "#arrow-up2", function(event){
-            $("#arrow-down2").css({"visibility": "visible"});
+        $('#xylon-remote-arrow-up').click(function (event) {
+            event.preventDefault();
             $("#arrow-up2").css({"visibility": "hidden"});
+            $("#arrow-down2").css({"visibility": "visible"});
+            $("#xylon-remote-arrow-down").css({"display": "inline-block"});
+            $("#xylon-remote-arrow-up").css({"display": "none"});
             $("#xylon-remote-info").css({"display": "none"});
         });
-
+        
         /*    ~~~~ Products end ~~~>   */
 
         /*    <~~~~ Footer start ~~~   */
