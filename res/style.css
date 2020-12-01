@@ -394,6 +394,24 @@ main{
 /*    ~~~~ PRODUCTS page end ~~~>   */ 
 
 /*    <~~~~ CONTACT page start~~~    */
+.contact-content{
+    text-align: center;
+    width: 100%;
+}
+#contact-info{
+    margin: 0.1em 0 0 0;
+}
+#contact-employees{
+    width: 100%;
+}
+.employee{
+    background-color: #f4f6fa;
+    width: 100%;
+    margin: 0.01em 0 0.1em 0;
+    padding: 1em 0;
+    font-weight: bold;
+}
+
 /*    ~~~~ CONTACT page end ~~~>   */ 
 
 /*    <~~~~ FOOTER start~~~    */ 
