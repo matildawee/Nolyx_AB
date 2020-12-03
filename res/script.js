@@ -116,18 +116,6 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
 
         /*    ~~~~ Navigering end ~~~>   */
 
-        //Visar swe-logo när man trycker på uk-logo
-        $("#header-flag").on("click", "#uk-logo", function(event){
-            $("#swe-logo").css({"visibility": "visible"});
-            $("#uk-logo").css({"visibility": "hidden"});            
-        });
-
-        //Visar uk-logo när man trycker på swe-logo
-        $("#header-flag").on("click", "#swe-logo", function(event){
-            $("#uk-logo").css({"visibility": "visible"});
-            $("#swe-logo").css({"visibility": "hidden"});
-        });
-
         /*    <~~~ Products start ~~~~   */
 
         //Visar pil upp när man trycker på pil ned

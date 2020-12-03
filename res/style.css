@@ -135,7 +135,7 @@ main{
     right: 40px;
 }
 #swe-logo{
-    visibility: hidden;
+    visibility: visible;
 }
 #uk-logo{
     visibility: visible;
