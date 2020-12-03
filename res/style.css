@@ -431,7 +431,7 @@ footer{
 }
 .footer-list{
     list-style: none;
-    width: 150px;
+    width: 200px;
     margin: 3% 0;
     padding: 0;
 }
@@ -588,11 +588,10 @@ footer{
         justify-content: center;
     }
     .footer-list{
-        width: 150px;
-        margin: 2em 3em;
+        margin: 2em 1.5em;
     }
     .footer-data{
-        padding: 0.5em 0;
+        padding: 0.5em 1em;
     }
     .footer-header{
         padding: 0.5em 0;

@@ -166,7 +166,7 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
             $("#xylon-remote-arrow-up").css({"display": "none"});
             $("#xylon-remote-info").css({"display": "none"});
         });
-        
+
         /*    ~~~~ Products end ~~~>   */
 
         /*    <~~~~ Footer start ~~~   */
@@ -183,6 +183,26 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
         $('#FindUs-footer').click(function (event) {
             event.preventDefault();
             loadPage('Contact');
+        });
+
+        $('#xylon-footer').click(function (event) {
+            event.preventDefault();
+            loadPage('Products');
+            $("#arrow-up").css({"visibility": "visible"});
+            $("#arrow-down").css({"visibility": "hidden"});
+            $("#xylon-arrow-down").css({"display": "none"});
+            $("#xylon-arrow-up").css({"display": "inline-block"});
+            $("#xylon-info").css({"display": "inline-block"});
+        });
+        $('#xylon-remote-footer').click(function (event) {
+            event.preventDefault();
+            loadPage('Products');
+            $("#arrow-up2").css({"visibility": "visible"});
+            $("#arrow-down2").css({"visibility": "hidden"});
+            $("#xylon-remote-arrow-down").css({"display": "none"});
+            $("#xylon-remote-arrow-up").css({"display": "inline-block"});
+            $("#xylon-remote-info").css({"display": "inline-block"});
+
         });
 
         /*    ~~~~ Footer end ~~~>   */
