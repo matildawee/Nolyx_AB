@@ -50,7 +50,7 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
                 $('#navBar-pageTitle').html("Kontakt");
                 classToggle();
             }
-        }
+        }        
 
         //Anropas när man klickar på loggan.
         $('#header-logo').click(function (event) {
