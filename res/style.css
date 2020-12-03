@@ -134,6 +134,12 @@ main{
     top: 6px;
     right: 40px;
 }
+#swe-logo{
+    visibility: hidden;
+}
+#uk-logo{
+    visibility: visible;
+}
 
 /*    <~~~~ START page start~~~    */ 
 #Start-Page{
@@ -462,12 +468,7 @@ footer{
     .flag-logo{
         width: 34px;
     }
-    #swe-logo{
-        visibility: hidden;
-    }
-    #uk-logo{
-        visibility: visible;
-    }
+
     /*    <~~~~ START page start~~~    */
     #Start-Page{
         margin-top: 10.7em;
@@ -656,8 +657,6 @@ footer{
 
     .flag-logo{
         width: 40px;
-    }
-    .flag-logo{
         top: 2px;
         right: 2px;
     }

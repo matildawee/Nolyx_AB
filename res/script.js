@@ -119,7 +119,7 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
         //Visar swe-logo när man trycker på uk-logo
         $("#header-flag").on("click", "#uk-logo", function(event){
             $("#swe-logo").css({"visibility": "visible"});
-            $("#uk-logo").css({"visibility": "hidden"});
+            $("#uk-logo").css({"visibility": "hidden"});            
         });
 
         //Visar uk-logo när man trycker på swe-logo
