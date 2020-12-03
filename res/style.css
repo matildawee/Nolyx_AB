@@ -419,6 +419,7 @@ main{
     padding: 1em 0;
     font-weight: bold;
 }
+
 /*    ~~~~ CONTACT page end ~~~>   */ 
 
 /*    <~~~~ FOOTER start~~~    */ 
@@ -576,10 +577,14 @@ footer{
     /*    <~~~~ CONTACT desktop start~~~    */
     #contact-employees{
         display: flex;
+        margin: 2em 0;
     }
     .employee{
         width: 100%;
         margin: 0.05em;
+    }
+    #contact-info{
+        margin: 2em 0;
     }
     /*    ~~~~ CONTACT desktop end ~~~>   */ 
 
@@ -720,13 +725,14 @@ footer{
 
     /*    <~~~~ CONTACT desktop start~~~    */
     #contact-info{
-        width: 70%;
-        margin: 3em 15%;
+        width: 80%;
+        margin: 3em 10%;
     }
     #contact-employees{
         display: flex;
-        width: 70%;
-        margin: 0 15% 3em;
+        width: 80%;
+        margin: 3em 10%;
+        padding: 0;
     }
     /*    ~~~~ CONTACT desktop end ~~~>   */ 
 
