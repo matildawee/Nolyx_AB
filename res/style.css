@@ -306,10 +306,6 @@ main{
     text-align: left;
     font-weight: bold;
 }
-#presentation-img{
-    width: 100%;
-    padding: 1em 0 0 0;
-}
 /*    ~~~~ REFERENCES page end ~~~>   */
 
 /*    <~~~~ PRODUCTS page start~~~    */
@@ -605,20 +601,13 @@ footer{
     }
     .test-content{
         display: flex;
-        width: 85%;
+        width: 50%;
         margin: 0 auto 1em;
         text-align: left;
         font-weight: bold;
         font-size: 1.2em;
         background-color: #f4f6fa;
         padding: 0.5em 1.5em;
-    }
-    .test-content > p{
-        padding: 0 0 0 2em;
-    }
-    #presentation-img{
-        width: 50%;
-        padding: 1em 0;
     }
     /*    <~~~~ REFERENCES desktop end ~~~   */
 
@@ -743,7 +732,7 @@ footer{
 
     /*    <~~~~ REFERENCES desktop start~~~    */
     .test-content{
-        width: 50%;
+        width: 30%;
     }
     /*    <~~~~ REFERENCES desktop end ~~~   */
 
