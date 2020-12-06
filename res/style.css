@@ -285,6 +285,31 @@ main{
 /*    ~~~~ SERVICES page end ~~~>   */
 
 /*    <~~~~ REFERENCES page start~~~    */
+#References-Page{
+    width: 100%;
+    margin: 2em 0 0 0;
+    text-align: center;
+}
+#References-Page > h3{
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+#test-logo{
+    width: 300px;
+}
+.test-content{
+    background-color: #f4f6fa;
+    padding: 0.5em 1.5em;
+}
+.test-content > p{
+    text-align: left;
+    font-weight: bold;
+}
+#presentation-img{
+    width: 100%;
+    padding: 1em 0 0 0;
+}
 /*    ~~~~ REFERENCES page end ~~~>   */
 
 /*    <~~~~ PRODUCTS page start~~~    */
@@ -574,6 +599,29 @@ footer{
     }
     /*    <~~~~ PRODUCTS desktop end ~~~   */
 
+    /*    <~~~~ REFERENCES desktop start~~~    */
+    #test-logo{
+        width: 400px;
+    }
+    .test-content{
+        display: flex;
+        width: 85%;
+        margin: 0 auto 1em;
+        text-align: left;
+        font-weight: bold;
+        font-size: 1.2em;
+        background-color: #f4f6fa;
+        padding: 0.5em 1.5em;
+    }
+    .test-content > p{
+        padding: 0 0 0 2em;
+    }
+    #presentation-img{
+        width: 50%;
+        padding: 1em 0;
+    }
+    /*    <~~~~ REFERENCES desktop end ~~~   */
+
     /*    <~~~~ CONTACT desktop start~~~    */
     #contact-employees{
         display: flex;
@@ -691,7 +739,14 @@ footer{
         margin: 0;
     }
     /*    ~~~~ SERVICES page end ~~~>   */ 
-    
+
+
+    /*    <~~~~ REFERENCES desktop start~~~    */
+    .test-content{
+        width: 50%;
+    }
+    /*    <~~~~ REFERENCES desktop end ~~~   */
+
     
     /*    <~~~~ PRESENTATION page start~~~    */ 
     .presentation-content{
