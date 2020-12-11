@@ -116,6 +116,16 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
 
         /*    ~~~~ Navigering end ~~~>   */
 
+
+        /*    <~~~ References start ~~~~   */
+        
+
+        
+
+       
+        /*    ~~~~ References end ~~~>   */
+
+
         /*    <~~~ Products start ~~~~   */
 
         //Visar pil upp när man trycker på pil ned

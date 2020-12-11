@@ -179,72 +179,27 @@ main{
 /*    ~~~~ START page end ~~~>   */
 
 /*    <~~~~ PRESENTATION page start~~~    */ 
-
-#Presentation-Page{
-    width: 100%;
-    margin-top: 2em;
-}
-#presentation-image{
-    width: 100%;
-    display: grid;
-    place-items: center;
-    margin: 7% 0;
-}
-#presentation-logo{
-    width: 300px;
-}
-.presentation-content{
-    width: 100%;
-    margin: 0 0 0.1em 0;
-    height: auto;
-    padding: 1em 0;
-    background-color: #f4f6fa;
-    display: flex;
-}
-#Presentation-Page > h3{
-    margin: 0 auto 1.5em;
-    height: auto;
-    width: 90%;
-    font-size: 1em;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    text-align: center;
-} 
-.presentation-content-left{
-    width: 90%;
-    place-items: center;
-}
-.presentation-content-left > p{
-    margin: 0 auto;
-    padding: 0 0.5 0 0em;
-    width: 95%;
-    font-size: 1em;
-    font-weight: bold;
-} 
-.presentation-content-right{
-    margin: auto 1em auto 0;
-    width: 10%;
-    padding: 0;
-    text-align: right;
-}
-.fas{
-    font-size: 2.5em;
-}
-.fa-industry{
-    font-size: 2em;
-}
-.fa-hard-hat{
-    font-size: 2.4em;
-}
-.fa-user-friends{
-    font-size: 2em; 
-}
-.fa-desktop{
-    font-size: 2em;
-}
-.fa-shield-alt{
-    font-size: 2em;
-}
+    #Presentation-Page{
+        width: 100%;
+        margin: 2em 0 0 0;
+        text-align: center;
+    }
+    #Presentation-Page > h3{
+        text-transform: uppercase;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+    }
+    #presentation-logo{
+        width: 300px;
+    }
+    .presentation-content{
+        background-color: #f4f6fa;
+        padding: 0.5em 1.5em;
+    }
+    .presentation-content > p{
+        text-align: left;
+        font-weight: bold;
+    }
 /*    ~~~~ PRESENTATION page end ~~~>   */
 
 /*    <~~~~ SERVICES page start~~~    */ 
@@ -287,25 +242,28 @@ main{
 /*    <~~~~ REFERENCES page start~~~    */
 #References-Page{
     width: 100%;
-    margin: 2em 0 0 0;
-    text-align: center;
 }
-#References-Page > h3{
-    text-transform: uppercase;
-    font-size: 1em;
-    letter-spacing: 0.1em;
-}
-#test-logo{
-    width: 300px;
-}
-.test-content{
+.references-content{
+    width: 100%;
+    margin: 0.1em 0 0 0;
     background-color: #f4f6fa;
-    padding: 0.5em 1.5em;
 }
-.test-content > p{
+.references-content > h2{
+    text-align: center;
+    margin: 0;
+    padding: 0.5em 0;
+    font-size: 2.5em;
+}
+.references-list{
     text-align: left;
+    margin: 0;
     font-weight: bold;
+    padding: 0 2em;
 }
+.references-list > li{
+    padding: 0 0 1em 0;
+}
+
 /*    ~~~~ REFERENCES page end ~~~>   */
 
 /*    <~~~~ PRODUCTS page start~~~    */
@@ -533,40 +491,18 @@ footer{
     /*    ~~~~ SERVICES page end ~~~>   */ 
 
     /*    <~~~~ PRESENTATION page start~~~    */ 
-    #Presentation-Page{
-        margin: 0 0 3em 0;
-    }
-    #presentation-image{
-        margin: 2em 0 1em 0;
-    }
     #presentation-logo{
         width: 400px;
     }
     .presentation-content{
-        width: 90%;
-        margin: 0 5% 0.1em 5%;
-    }
-    .presentation-content-left > p{
-        margin: 0 0 0 1em;
-        width: 100%;
-    } 
-    .fas{
-        font-size: 3em;
-    }
-    .fa-industry{
-        font-size: 2.5em;
-    }
-    .fa-hard-hat{
-        font-size: 2.9em;
-    }
-    .fa-user-friends{
-        font-size: 2.5em; 
-    }
-    .fa-desktop{
-        font-size: 2.5em;
-    }
-    .fa-shield-alt{
-        font-size: 2.5em;
+        display: flex;
+        width: 60%;
+        margin: 0 auto 1em;
+        text-align: left;
+        font-weight: bold;
+        font-size: 1em;
+        background-color: #f4f6fa;
+        padding: 0.5em 1.5em;
     }
     /*    ~~~~ PRESENTATION page end ~~~>   */
 
@@ -596,18 +532,16 @@ footer{
     /*    <~~~~ PRODUCTS desktop end ~~~   */
 
     /*    <~~~~ REFERENCES desktop start~~~    */
-    #test-logo{
-        width: 400px;
-    }
-    .test-content{
+    #References-Page{
         display: flex;
-        width: 50%;
-        margin: 0 auto 1em;
-        text-align: left;
-        font-weight: bold;
-        font-size: 1.2em;
-        background-color: #f4f6fa;
-        padding: 0.5em 1.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 4em 0 0 0;
+    }
+    .references-content{
+        width: 40%;
+        margin: 0.1em;
+        padding: 0.5em 1em 0.5em 0; 
     }
     /*    <~~~~ REFERENCES desktop end ~~~   */
 
@@ -731,16 +665,15 @@ footer{
 
 
     /*    <~~~~ REFERENCES desktop start~~~    */
-    .test-content{
-        width: 30%;
+    .references-content{
+        width: 25%;
     }
     /*    <~~~~ REFERENCES desktop end ~~~   */
 
     
     /*    <~~~~ PRESENTATION page start~~~    */ 
     .presentation-content{
-        width: 80%;
-        margin: 0 10% 0.1em 10%;
+        width: 40%;
     } 
     /*    ~~~~ PRESENTATION page end ~~~>   */
 
