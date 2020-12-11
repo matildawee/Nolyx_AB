@@ -22,6 +22,7 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
     //Döljer alla sidor, uppdaterar vilken sida som är aktiv just nu, samt
     //visar och uppdaterar Page-Title i mobilvyn, visar och döljer navbar i mobilvyn
         function loadPage(clickedId){ 
+            
             hidePageSections(); 
             $('#' + clickedId + '-Page').show();
             $('.menuBtn').removeClass('activePage');
@@ -118,11 +119,131 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
 
 
         /*    <~~~ References start ~~~~   */
-        
+        $("#buntlinje-up").hide();
+        $("#buntlinje-down").show();
+        $('#buntlinje-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#buntlinje" ).toggle();
+            $( "#buntlinje-down" ).toggle();
+            $( "#buntlinje-up" ).toggle();
+        });
+        $("#fingerskarvslinje-up").hide();
+        $("#fingerskarvslinje-down").show();
+        $('#fingerskarvslinje-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#fingerskarvslinje" ).toggle();
+            $( "#fingerskarvslinje-down" ).toggle();
+            $( "#fingerskarvslinje-up" ).toggle();
+        });
 
-        
+        $("#hyvellinje-up").hide();
+        $("#hyvellinje-down").show();
+        $('#hyvellinje-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#hyvellinje" ).toggle();
+            $( "#hyvellinje-down" ).toggle();
+            $( "#hyvellinje-up" ).toggle();
+        });
 
-       
+        $("#justerverk-up").hide();
+        $("#justerverk-down").show();
+        $('#justerverk-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#justerverk" ).toggle();
+            $( "#justerverk-down" ).toggle();
+            $( "#justerverk-up" ).toggle();
+        });
+
+        $("#klyvlinje-up").hide();
+        $("#klyvlinje-down").show();
+        $('#klyvlinje-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#klyvlinje" ).toggle();
+            $( "#klyvlinje-down" ).toggle();
+            $( "#klyvlinje-up" ).toggle();
+        });
+
+        $("#kombiverk-up").hide();
+        $("#kombiverk-down").show();
+        $('#kombiverk-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#kombiverk" ).toggle();
+            $( "#kombiverk-down" ).toggle();
+            $( "#kombiverk-up" ).toggle();
+        });
+
+        $("#målningslinje-up").hide();
+        $("#målningslinje-down").show();
+        $('#målningslinje-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#målningslinje" ).toggle();
+            $( "#målningslinje-down" ).toggle();
+            $( "#målningslinje-up" ).toggle();
+        });
+
+        $("#paketläggare-up").hide();
+        $("#paketläggare-down").show();
+        $('#paketläggare-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#paketläggare" ).toggle();
+            $( "#paketläggare-down" ).toggle();
+            $( "#paketläggare-up" ).toggle();
+        });
+
+        $("#panna-up").hide();
+        $("#panna-down").show();
+        $('#panna-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#panna" ).toggle();
+            $( "#panna-down" ).toggle();
+            $( "#panna-up" ).toggle();
+        });
+
+        $("#rotreducerare-up").hide();
+        $("#rotreducerare-down").show();
+        $('#rotreducerare-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#rotreducerare" ).toggle();
+            $( "#rotreducerare-down" ).toggle();
+            $( "#rotreducerare-up" ).toggle();
+        });
+
+        $("#råsortering-up").hide();
+        $("#råsortering-down").show();
+        $('#råsortering-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#råsortering" ).toggle();
+            $( "#råsortering-down" ).toggle();
+            $( "#råsortering-up" ).toggle();
+        });
+
+        $("#ströläggare-up").hide();
+        $("#ströläggare-down").show();
+        $('#ströläggare-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#ströläggare" ).toggle();
+            $( "#ströläggare-down" ).toggle();
+            $( "#ströläggare-up" ).toggle();
+        });
+
+        $("#säkerhet-up").hide();
+        $("#säkerhet-down").show();
+        $('#säkerhet-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#säkerhet" ).toggle();
+            $( "#säkerhet-down" ).toggle();
+            $( "#säkerhet-up" ).toggle();
+        });
+
+        $("#diverse-up").hide();
+        $("#diverse-down").show();
+        $('#diverse-show-hide').click(function (event) {
+            event.preventDefault();
+            $( "#diverse" ).toggle();
+            $( "#diverse-down" ).toggle();
+            $( "#diverse-up" ).toggle();
+        });
+               
         /*    ~~~~ References end ~~~>   */
 
 

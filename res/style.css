@@ -11,6 +11,21 @@ html, body {
     width: 100%;
     display: inline-block;
 }
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0.2em 0.4em;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+} 
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 
 /*    <~~~ HEADER NAVIGATION start ~~~~   */
 .navBar{
@@ -252,7 +267,7 @@ main{
     text-align: center;
     margin: 0;
     padding: 0.5em 0;
-    font-size: 2.5em;
+    letter-spacing: 0.05em;
 }
 .references-list{
     text-align: left;
@@ -263,6 +278,166 @@ main{
 .references-list > li{
     padding: 0 0 1em 0;
 }
+.references-content > h2:hover{
+    cursor: pointer;
+    color: rgb(131, 131, 131);
+}
+#buntlinje-down{ 
+    display: inline-block;
+    visibility: visible;
+}
+#buntlinje-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#buntlinje{
+    display: none;
+}
+#fingerskarvslinje-down{
+    display: inline-block;
+    visibility: visible;
+}
+#fingerskarvslinje-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#fingerskarvslinje{
+    display: none;
+}
+#hyvellinje-down{
+    display: inline-block;
+    visibility: visible;
+}
+#hyvellinje-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#hyvellinje{
+    display: none;
+}
+#justerverk-down{
+    display: inline-block;
+    visibility: visible;
+}
+#justerverk-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#justerverk{
+    display: none;
+}
+#klyvlinje-down{
+    display: inline-block;
+    visibility: visible;
+}
+#klyvlinje-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#klyvlinje{
+    display: none;
+}
+#kombiverk-down{
+    display: inline-block;
+    visibility: visible;
+}
+#kombiverk-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#kombiverk{
+    display: none;
+}
+#målningslinje-down{
+    display: inline-block;
+    visibility: visible;
+}
+#målningslinje-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#målningslinje{
+    display: none;
+}
+#paketläggare-down{
+    display: inline-block;
+    visibility: visible;
+}
+#paketläggare-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#paketläggare{
+    display: none;
+}
+#panna-down{
+    display: inline-block;
+    visibility: visible;
+}
+#panna-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#panna{
+    display: none;
+}
+#rotreducerare-down{
+    display: inline-block;
+    visibility: visible;
+}
+#rotreducerare-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#rotreducerare{
+    display: none;
+}
+#råsortering-down{
+    display: inline-block;
+    visibility: visible;
+}
+#råsortering-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#råsortering{
+    display: none;
+}
+#ströläggare-down{
+    display: inline-block;
+    visibility: visible;
+}
+#ströläggare-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#ströläggare{
+    display: none;
+}
+#säkerhet-down{
+    display: inline-block;
+    visibility: visible;
+}
+#säkerhet-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#säkerhet{
+    display: none;
+}
+#diverse-down{
+    display: inline-block;
+    visibility: visible;
+}
+#diverse-up{
+    display: inline-block;
+    visibility: visible; 
+}
+#diverse{
+    display: none;
+}
+
+
 
 /*    ~~~~ REFERENCES page end ~~~>   */
 
@@ -306,21 +481,6 @@ main{
   }
 .products-content > a:hover {
     color: rgb(131, 131, 131);
-}
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin: 0.2em 0.4em;
-}
-.up {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-} 
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
 }
 .xylon-arrows:hover{
     cursor: pointer;
@@ -533,14 +693,12 @@ footer{
 
     /*    <~~~~ REFERENCES desktop start~~~    */
     #References-Page{
-        display: flex;
-        flex-wrap: wrap;
         justify-content: center;
-        margin: 4em 0 0 0;
+        margin: 4em 0;
     }
     .references-content{
-        width: 40%;
-        margin: 0.1em;
+        width: 60%;
+        margin: 0.1em auto;
         padding: 0.5em 1em 0.5em 0; 
     }
     /*    <~~~~ REFERENCES desktop end ~~~   */
@@ -666,7 +824,8 @@ footer{
 
     /*    <~~~~ REFERENCES desktop start~~~    */
     .references-content{
-        width: 25%;
+        width: 50%;
+        margin: 0.1em auto;
     }
     /*    <~~~~ REFERENCES desktop end ~~~   */
 
