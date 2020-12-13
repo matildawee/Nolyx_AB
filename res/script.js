@@ -1,14 +1,15 @@
 /* This JavaScript need jQuery to run */
 $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har laddat klart. 
 
-        
-      function counter() { 
+    function counter() {
         var counterElement = document.getElementById("cntr")
-    var counterNumber = parseInt(counterElement.innerHTML)
-    counterNumber = counterNumber + 1
-    counterElement.innerHTML = counterNumber
+        var counterNumber = parseInt(counterElement.innerHTML)
+        counterNumber = counterNumber + 1
+        counterElement.innerHTML = counterNumber
     }
-    counter();
+    window.onload = function() {
+        counter();
+      };
 
     //Döljer alla sidor när sidan laddas
     function hidePageSections() { 
@@ -23,7 +24,6 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
     hidePageSections(); //Vid första laddning av webbsidan döljs alla sidor med hidePageSections()
     $("#Start-Page").show(); //Visar startsida vid första laddning
     $("#Start-Page").animate({opacity: '1'}, 1500);
-
 
     /*    <~~~ Navigering start ~~~~   */
 
