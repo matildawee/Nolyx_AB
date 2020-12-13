@@ -1,6 +1,8 @@
 /* This JavaScript need jQuery to run */
 $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har laddat klart. 
 
+    
+
     //Döljer alla sidor när sidan laddas
     function hidePageSections() { 
         $("#Start-Page").hide();
