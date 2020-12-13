@@ -697,9 +697,19 @@ footer{
         margin: 4em 0;
     }
     .references-content{
-        width: 60%;
+        width: 100%;
         margin: 0.1em auto;
-        padding: 0.5em 1em 0.5em 0; 
+        padding: 0;
+    }
+    #left-div{
+        width: 45%;
+        float: left;
+        margin: 0 0 4em 2em;
+    }
+    #right-div{
+        width: 45%;
+        float: right;
+        margin: 0 2em 4em 0;
     }
     /*    <~~~~ REFERENCES desktop end ~~~   */
 
@@ -823,9 +833,13 @@ footer{
 
 
     /*    <~~~~ REFERENCES desktop start~~~    */
-    .references-content{
-        width: 40%;
-        margin: 0.1em auto;
+    #left-div{
+        width: 33%;
+        margin: 0 0 4em 11em;
+    }
+    #right-div{
+        width: 33%;
+        margin: 0 11em 4em 0;
     }
     /*    <~~~~ REFERENCES desktop end ~~~   */
 
