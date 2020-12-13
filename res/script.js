@@ -1,7 +1,14 @@
 /* This JavaScript need jQuery to run */
 $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har laddat klart. 
 
-    
+        
+      function counter() { 
+        var counterElement = document.getElementById("cntr")
+    var counterNumber = parseInt(counterElement.innerHTML)
+    counterNumber = counterNumber + 1
+    counterElement.innerHTML = counterNumber
+    }
+    counter();
 
     //Döljer alla sidor när sidan laddas
     function hidePageSections() { 
