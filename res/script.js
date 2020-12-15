@@ -15,6 +15,8 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
     $("#Start-Page").show(); //Visar startsida vid första laddning
     $("#Start-Page").animate({opacity: '1'}, 1500);
 
+
+    
     /*    <~~~ Navigering start ~~~~   */
 
     //Anropas när man klickar på navigeringslänkarna.
@@ -115,6 +117,7 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
         document.querySelector('#navButton-toggle').addEventListener('click', classToggle);
 
         /*    ~~~~ Navigering end ~~~>   */
+
 
 
         /*    <~~~ References start ~~~~   */
@@ -246,6 +249,7 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
         /*    ~~~~ References end ~~~>   */
 
 
+
         /*    <~~~ Products start ~~~~   */
 
         //Visar pil upp när man trycker på pil ned
@@ -287,6 +291,8 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
 
         /*    ~~~~ Products end ~~~>   */
 
+
+
         /*    <~~~~ Footer start ~~~   */
         $('#Products-footer').click(function (event) {
             event.preventDefault();
@@ -322,6 +328,5 @@ $(document).ready(function() { //JavaScriptet nedan körs när HTML-sidan har la
             $("#xylon-remote-info").css({"display": "inline-block"});
 
         });
-
         /*    ~~~~ Footer end ~~~>   */
 });
