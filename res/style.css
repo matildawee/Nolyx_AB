@@ -572,7 +572,7 @@ footer{
     width: 100%;
     background-color: #474e5d;
     color: white;
-    display: flex;
+    display: grid;
     bottom: 0;
 }
 .footer-content{
@@ -603,6 +603,19 @@ footer{
     cursor: pointer;
     color: rgb(128, 122, 122);
 }
+#filler{
+    width: 0%;  
+}
+#test{
+    width: 100%;
+    text-align: center;
+}
+.fab{
+    color: white;
+    font-size: 2em;
+    margin: 0.5em 0 1em 0;
+}
+
 /*    ~~~~ FOOTER end~~~>    */ 
 
 /* Denna kod används om skärmen är större än 768px */
@@ -738,9 +751,13 @@ footer{
     /*    ~~~~ CONTACT desktop end ~~~>   */ 
 
     /*    <~~~~ FOOTER desktop end ~~~   */
+    footer{
+        display: flex;
+    }
     .footer-content{
         display: flex;
         justify-content: center;
+        width: 80%;
     }
     .footer-list{
         margin: 2em 1.5em;
@@ -765,6 +782,15 @@ footer{
     }
     .up{
         visibility: hidden;
+    }
+    #filler{
+        width: 10%;
+    }
+    #test{
+        width: 10%;
+    }
+    .fab{
+        margin: 2.5em 0 0 0;
     }
     /*    ~~~~ FOOTER desktop end ~~~>   */
 }
