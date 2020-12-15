@@ -126,12 +126,12 @@ nav > ul > li > a{
 }
 nav > ul > li > a:hover{
     cursor: pointer;
-    background: #333;
+    background: #474e5d;
     color: #fff
 }
 .activePage{
     cursor: pointer;
-    background: #333;
+    background: #474e5d;
     color: #fff
 }
 /*    ~~~~ HEADER NAVIGATION end ~~~>   */
