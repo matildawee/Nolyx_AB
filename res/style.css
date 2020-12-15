@@ -615,6 +615,10 @@ footer{
     font-size: 2em;
     margin: 0.5em 0 1em 0;
 }
+.fab:hover{
+    cursor: pointer;
+    color: rgb(128, 122, 122);
+}
 
 /*    ~~~~ FOOTER end~~~>    */ 
 
